@@ -44,6 +44,9 @@ cd citizen-engagement-system
 
 cd backend
 npm install
+run:
+npx nodemon index.js
+
 
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
